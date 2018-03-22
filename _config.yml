@@ -1,14 +1,14 @@
 # Site settings
-title:       Blog
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Pengxiang Cheng
+email:       pengxiang.cheng@gmail.com
+author:      Pengxiang Cheng
+description: "Random thoughts by Pengxiang Cheng"
 baseurl:     "/blog"
 url:         "http://pengxiang.me"
 date_format: "%b %-d, %Y"
 header_pages:
- - about.md
- - contact.html
+  # - about.md
+  - contact.html
 
 # Google services
 google_verification:
@@ -25,7 +25,7 @@ show_related_posts:   false
 show_post_footers:    false
 show_social_icons:    false
 ajaxify_contact_form: false
-enable_mathjax: false
+enable_mathjax: true
 extended_fonts: false
 enable_anchorjs: false
 # Preview image for social media aka og:image and twitter:image
@@ -51,7 +51,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: "pxcheng526"
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
@@ -59,7 +59,7 @@ twitter_username:
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username: "pengxiang"
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -71,10 +71,10 @@ vk_id:
 # Post sharing icons
 show_sharing_icons: false
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
@@ -111,7 +111,7 @@ text:
       sending:  'sending..'
       sent:     'Message sent!'
       error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  thanks: 'Thanks for contacting me. I will reply as soon as possible.'
   og_locale: 'en_US'
 
 # Build settings
